@@ -1,0 +1,15 @@
+.cardtype {
+    height: 20px;
+}
+
+.creditcard{
+    border-radius: 4px;
+    padding: 5px;
+    width: 250px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.creditcard p {
+    font-size: .7em;
+}
