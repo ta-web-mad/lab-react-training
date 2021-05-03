@@ -1,0 +1,25 @@
+
+.DriverCard{
+    background-color: rgb(66, 66, 182);
+    padding: 10px 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-content: center;
+}
+.img-crop{
+    height: 100%;
+    display: inline;
+  margin: 0 auto;
+}
+.square{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+
+}

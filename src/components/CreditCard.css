@@ -1,0 +1,10 @@
+.CreditCard{
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 5px;
+    width: 300px
+}
+h2{
+    text-align: end;
+}
