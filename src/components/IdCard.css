@@ -1,0 +1,27 @@
+.card {
+    display:flex;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.cardImage {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+.cardData {
+    display: flex;
+    flex-direction: column; 
+    line-height: 2px;
+    margin-top: 10px;
+}
+
+.cardInfo {
+    display: flex;
+    margin-top: 1px;
+    font-size: 10px;
+}
+.idTitle {
+    display: flex;
+}

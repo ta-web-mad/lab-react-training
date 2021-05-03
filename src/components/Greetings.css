@@ -1,0 +1,11 @@
+.greet {
+    display: flex;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 7px;
+    align-items: center;
+}
+
+.greetingsTitle {
+    display: flex;
+}

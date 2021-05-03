@@ -1,0 +1,10 @@
+.ratingTitle {
+    display: flex;
+    flex-direction: column;
+}
+
+.rating{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+}

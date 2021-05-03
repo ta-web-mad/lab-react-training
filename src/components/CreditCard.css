@@ -1,0 +1,23 @@
+.creditCard {
+    width: 20%;
+    height: 130px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 7px;
+    position: relative;
+    float: left;
+}
+
+.creditCard img {
+    width: 25%;
+    margin-left: 150px; 
+}
+
+.numberOfTheCard{
+    text-align: center;
+    position:absolute;
+}
+
+.creditCardTitle {
+    display: flex;  
+}
