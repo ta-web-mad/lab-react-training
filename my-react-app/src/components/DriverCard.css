@@ -1,0 +1,18 @@
+.drivercard {
+    background-color: rgb(92, 43, 226);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.driverportrait {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;    
+    border-radius: 50%;
+}
+.drivercard .stars {
+    width: 30px;
+}

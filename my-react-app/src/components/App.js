@@ -6,6 +6,8 @@ import Greetings from './Greetings'
 import Random from './Random'
 import BoxColor from './BoxColor';
 import CreditCard from './CreditCard';
+import Rating from './Rating';
+import DriverCard from './DriverCard';
 
 function App() {
   return (
@@ -96,6 +98,46 @@ function App() {
           owner="Firstname Lastname"
           bgColor="#ddbb55"
           color="white" />
+    </section>
+    <section>
+        <h1>ITERATION 6</h1>
+        <Rating 
+        children={0}
+        />
+        <Rating
+          children={1.49}
+        />
+        <Rating
+          children={1.5}
+        />
+        <Rating
+          children={3}
+        />
+        <Rating
+          children={4}
+        />
+        <Rating
+          children={5}
+        />
+    </section>
+    <section>
+        <h1>ITERATION 7</h1>
+        <DriverCard 
+          name="Travis Kalanick"
+          rating={4.2}
+          img="https://si.wsj.net/public/resources/images/BN-TY647_37gql_OR_20170621052140.jpg?width=620&height=428"
+          car={{
+            model: "Toyota Corolla Altis",
+            licensePlate: "CO42DE"
+          }}  />
+        <DriverCard
+          name="Dara Khosrowshahi"
+          rating={4.9}
+          img="https://ubernewsroomapi.10upcdn.com/wp-content/uploads/2017/09/Dara_ELT_Newsroom_1000px.jpg"
+          car={{
+            model: "Audi A3",
+            licensePlate: "BE33ER"
+          }} />
     </section>
     </div>
     

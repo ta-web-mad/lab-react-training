@@ -1,0 +1,10 @@
+.ratings section{
+    justify-content: left;
+    margin-top: 10px;
+}
+.ratings img {
+    height: 50px;
+}
+.stars {
+    margin: 10px;
+}
