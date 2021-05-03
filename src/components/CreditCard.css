@@ -1,0 +1,32 @@
+.creditCard {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    width: 370px;
+    min-width: 370px;
+    margin: 20px;
+    padding: 0 60px 40px 60px;
+}
+
+.creditCard span {
+    margin-left: 30px;
+}
+
+.cardType {
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 0;
+    text-align: right;
+}
+
+.cardNumber {
+    font-weight: bold;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.cardMeta {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 1.2em;
+}

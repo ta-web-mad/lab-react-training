@@ -1,0 +1,10 @@
+.box {
+    border: 1px solid;
+    padding: 40px;
+    margin: 10px;
+    width: 400px;
+}
+
+.box p {
+    text-align: center;
+}
