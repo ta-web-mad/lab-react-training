@@ -1,0 +1,11 @@
+.idcard {
+    border: 1px solid;
+    display: flex;
+}
+.idcard img {
+    width: 200px;
+}
+.idcard-text{
+    text-indent: 50px;
+
+}
