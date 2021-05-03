@@ -1,0 +1,8 @@
+.colorBox {
+    border: 2px solid black;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    padding: 25px 0;
+    margin-bottom: 25px;
+}

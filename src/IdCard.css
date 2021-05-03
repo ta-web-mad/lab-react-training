@@ -1,0 +1,10 @@
+.indiv-card {
+    border: 1px solid black;
+    padding: 5px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.indiv-card img {
+    padding-right: 5px;
+}

@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+/* GENERAL STYLES */
+
+body {
+  padding: 5px;
+}
+
+h2, h3, p {
+ margin: 0;
+}
+
+.result-box {
+  border: 1px solid black;
+  margin: 10px 0;
+  padding: 5px;
+}
+
+.result-box p {
+  font-size: 2em;
+}
