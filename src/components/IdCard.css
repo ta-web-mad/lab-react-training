@@ -1,0 +1,9 @@
+.idcard {
+display: flex;
+border-style: solid;
+ margin-bottom: 10px;
+}
+
+.idcard img {
+    height: 190px;
+}
