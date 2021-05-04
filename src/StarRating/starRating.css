@@ -1,0 +1,25 @@
+/* .checked{
+      content: "\2605";
+      color: black;
+      unicode-bidi: bidi-override;
+}
+
+.not-checked{
+    content: "\2600";
+
+}
+
+.rating > span {
+    
+    font-size: 35px;
+} */
+
+span {
+    color: white;
+    font-size: 35px;
+    text-shadow: 0 0 3px black;
+}
+
+.checked{
+      color: black;
+}
