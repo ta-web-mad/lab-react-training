@@ -1,0 +1,2 @@
+import './Rating.css'
+

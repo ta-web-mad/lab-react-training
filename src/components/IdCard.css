@@ -1,0 +1,8 @@
+.card {
+display: flex;
+border-style: solid;
+ margin-bottom: 10px;
+}
+.card img {
+    height: 190px;
+}
