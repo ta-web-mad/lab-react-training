@@ -1,0 +1,11 @@
+.creditCard {
+    
+    width: 330px;
+    border-radius: 3%;
+}
+
+.creditCard img {
+        width: 55px;
+        height: 30px;
+        
+}
