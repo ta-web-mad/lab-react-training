@@ -1,0 +1,14 @@
+.idCard{
+    display: flex;
+    border: 1px solid;
+    border-left: 1px solid;
+    margin: 10px 10px;
+}
+.idCard div{
+    display: block;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.idCard img{
+    height: 100%;
+}

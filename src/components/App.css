@@ -1,0 +1,11 @@
+
+body {
+  font-family: sans-serif;
+  font-weight: 100;
+  margin: 20px 10px;
+}
+.credits{
+  display: flex;
+ justify-content: space-around;
+ padding: 10px 10px;
+}
