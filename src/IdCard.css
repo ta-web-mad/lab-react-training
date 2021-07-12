@@ -1,0 +1,11 @@
+.idcard {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+    margin: 5px 0px;
+    display: flex;
+    justify-content: left;
+}
+#picture{
+    object-fit: cover;
+    margin-right: 5px;
+}
