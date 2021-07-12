@@ -10,6 +10,8 @@ import LikeButton from './LikeButton'
 import ClickablePicture from './ClickablePicture'
 import Die from './Die'
 import Carousel from './Carousel'
+import NumberComponent from './NumberComponent'
+import NumbersTable from './NumbersTable'
 
 import mrBin from "./mrBin.jpg"
 import mrBinCool from "./mrBinCool.jpg"
@@ -47,6 +49,7 @@ function App() {
           'https://randomuser.me/api/portraits/men/2.jpg'
         ]}
       />
+      <NumbersTable limit={12} />
     </>
   )
 }
