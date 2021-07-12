@@ -1,0 +1,10 @@
+.idcard{
+    display:flex;
+    border: 1px solid black;
+}
+.idcard img{
+    width: 200px;
+}
+.idcard div{
+    padding: 10px;
+}
