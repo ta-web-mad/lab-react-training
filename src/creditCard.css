@@ -1,0 +1,29 @@
+.divCC img{
+        display:block;
+        width: 15%;
+        margin-left: auto;
+        margin-top: 15px;
+        margin-right: 15px;
+}
+
+.divCC p{
+        margin:0
+}
+
+.divCC p:last-child{
+        padding-bottom: 7px;
+}
+
+.divCC div:nth-child(2) p{
+        font-size: 30px;
+        text-align: center;
+}
+.divCC div:nth-child(3) p{
+        margin-left: 10%;
+}
+.divCC div:nth-child(3) p span{
+        margin-left: 10%;
+}
+.divCC div:nth-child(3){
+        margin-bottom: 5px;
+}

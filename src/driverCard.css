@@ -1,0 +1,26 @@
+.driver-card>div>img{
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        border-radius: 50%;
+        display: block;
+        margin-left: auto;
+}
+
+.driver-card{
+        background: #455fb5;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        color: white;
+        margin-bottom: 10px;
+
+}
+
+.driver-card>div{
+        width: 40%;
+}
+
+.driver-info{
+        margin-left: 20px;
+}
