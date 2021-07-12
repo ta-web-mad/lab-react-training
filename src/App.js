@@ -1,26 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Greetings from './Greetings'
+import DisplayCards from './DisplayCards'
+import Random from './Random'
+import BoxColor from './BoxColor'
+import DisplayCreditCards from './DisplayCreditCards'
+import DisplayRating from './DisplayRating'
+import DisplayDriverCards from './DisplayDriverCards'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <DisplayCards />
+      <Greetings
+        lang="de"
+        children='Ludwig'
+      />
+      <Greetings
+        lang="fr"
+        children='François'
+      />
+      <Random min={1} max={6} />
+      <Random min={1} max={100} />
+      <BoxColor r={255} g={0} b={0} />
+      <BoxColor r={128} g={255} b={0} />
+      <DisplayCreditCards />
+      <DisplayRating />
+      <DisplayDriverCards />
+    </>
+  )
 }
 
 export default App;
