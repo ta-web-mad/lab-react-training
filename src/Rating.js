@@ -1,4 +1,4 @@
-// import './Rating.css'
+import './Rating.css'
 
 const Rating = props => {
 
@@ -19,7 +19,7 @@ const Rating = props => {
 
 
     return (
-        <div>{ratingPic}</div>
+        <div className='stars'>{ratingPic}</div>
 
 
     )

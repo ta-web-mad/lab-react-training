@@ -6,6 +6,7 @@ import BoxColor from './BoxColor'
 import DisplayCreditCards from './DisplayCreditCards'
 import DisplayRating from './DisplayRating'
 import DisplayDriverCards from './DisplayDriverCards'
+import LikeButton from './LikeButton'
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <DisplayCreditCards />
       <DisplayRating />
       <DisplayDriverCards />
+      <LikeButton />
     </>
   )
 }
