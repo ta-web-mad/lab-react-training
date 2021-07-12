@@ -1,0 +1,14 @@
+.creditCard {
+   
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+    margin: 10%;
+    width: 10%
+}
+
+.creditCard img {
+        width: 50%;
+        height: 50%;
+        margin-left: 50%;
+}
