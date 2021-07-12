@@ -1,0 +1,27 @@
+.numbers-table {
+    border: none;
+    list-style: none;
+}
+
+.numbers-table ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.numbers-table li {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border: black solid 1px;
+    justify-content: center;
+    align-items: center;
+}
+
+.numbers-table li>p {
+    display: block;
+}
+

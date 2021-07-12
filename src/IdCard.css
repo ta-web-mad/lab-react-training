@@ -1,0 +1,23 @@
+article {
+    display: flex;
+    border: black solid 1px;
+    text-align: initial;
+    padding: 5px;
+    margin: 10px auto;
+}
+
+article img {
+    order: 1;
+    width: 130px;
+    object-fit: contain;
+    margin: 0;
+}
+
+article main {
+    order: 2;
+    margin-left: 5px;
+}
+
+article p {
+    margin: 0;
+}
