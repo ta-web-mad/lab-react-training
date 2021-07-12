@@ -1,0 +1,15 @@
+.id-card {
+  padding: 5px;
+  border: solid 2px;
+  margin: 10px;
+  
+}
+
+.img-card {
+    position: absolute;
+    margin-top: 20px;
+}
+
+p {
+    margin-left: 200px;
+}
