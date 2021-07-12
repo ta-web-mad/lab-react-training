@@ -4,7 +4,7 @@ const Random = props => {
 
     return (
         <div>
-            <p> Random value beween {Math.round(random)}  </p>
+            <p>Random value between {Math.round(random)}</p>
         </div>
     )
 }
