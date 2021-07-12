@@ -7,6 +7,11 @@ import DisplayCreditCards from './DisplayCreditCards'
 import DisplayRating from './DisplayRating'
 import DisplayDriverCards from './DisplayDriverCards'
 import LikeButton from './LikeButton'
+import ClickablePicture from './ClickablePicture'
+import Die from './Die'
+
+import mrBin from "./mrBin.jpg"
+import mrBinCool from "./mrBinCool.jpg"
 
 function App() {
   return (
@@ -28,6 +33,11 @@ function App() {
       <DisplayRating />
       <DisplayDriverCards />
       <LikeButton />
+      <ClickablePicture
+        img={mrBin}
+        imgClicked={mrBinCool}
+      />
+      <Die />
     </>
   )
 }
