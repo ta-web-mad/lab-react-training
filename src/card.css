@@ -1,0 +1,32 @@
+
+
+.cc {
+    
+background-color: #4da799;
+color:white;
+border-radius: 15px;
+
+}
+
+.first{
+    margin-top: 10px;
+    justify-content: flex-end;
+}
+
+.second{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.third{
+    
+}
+
+.logoBank {
+    
+    width: 100px;
+    justify-items: flex-end;
+  justify-content: flex-end;
+   
+
+}
