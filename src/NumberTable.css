@@ -1,0 +1,4 @@
+.numberTable{
+    display: flex;
+    flex-wrap: wrap;
+}

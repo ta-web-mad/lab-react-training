@@ -1,0 +1,40 @@
+.driver-container{
+    display: flex;
+    justify-content: center;
+}
+
+.driver-card {
+    background-color: cadetblue;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    width: calc(100% - 40px);
+}
+
+
+.driver-card img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    float: right;
+    /* height: 200px; */
+    object-fit: cover;
+}
+
+.driver-image{
+    width: 60%;
+}
+
+.driver-info{
+    padding-left: 20px ;
+    padding-top: 45px ;
+    width: 60%;
+    color: white;
+
+}
+
+h5{
+    margin: 0 10px;
+}
