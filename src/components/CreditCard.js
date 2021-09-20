@@ -2,8 +2,6 @@ import './CreditCard.css'
 
 const CreditCard = props => {
 
-    const cardNum = props.number
-
     const divStyle = {
         color: `${props.color}`,
         backgroundColor: `${props.bgColor}`
@@ -20,7 +18,7 @@ const CreditCard = props => {
                 <img src={cardType[props.type]} alt='Card logo'></img>
             </div>
             <p className="card-number">**** **** **** {props.number.substr(-4)}</p>
-            <p>{props.expirationMonth}/{props.expirationYear} - {props.bank}</p>
+            <p>{props.expirationMonth}/{props.expirationYear.toString().substr(-2)} - {props.bank}</p>
             <p>{props.owner}</p>
         </div>
     )

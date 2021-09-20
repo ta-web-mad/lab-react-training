@@ -1,0 +1,10 @@
+.rating_container {
+  border: 2px solid black;
+  width: 35%;
+  margin: auto;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  font-size: 6rem;
+  text-align: center;
+  line-height: 25px;
+}

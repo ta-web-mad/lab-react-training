@@ -1,0 +1,44 @@
+.drivers_container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 25px;
+}
+
+.card_container {
+  display: flex;
+  align-items: center;
+  margin: 25px;
+  padding: 25px;
+  background-color: #455eb5;
+  border-radius: 15px;
+  color: white;
+  width: 100%;
+}
+
+.text-container {
+  margin-left: 25px;
+  line-height: 5px;
+}
+
+.image-container {
+  margin-right: 25px;
+}
+
+.image-container img {
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.drivers-name {
+  font-size: 2.5rem;
+}
+
+.drivers-rating {
+  font-size: 2.5rem;
+}
+
+.car-info {
+  font-size: 1.2rem;
+}

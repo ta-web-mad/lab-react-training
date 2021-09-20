@@ -1,0 +1,15 @@
+.likes_container {
+  width: 100%;
+  margin: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.like-button {
+  padding: 15px 50px;
+  background-color: red;
+  border: 3px solid black;
+  color: white;
+  font-size: 2rem;
+  width: 25%;
+}
