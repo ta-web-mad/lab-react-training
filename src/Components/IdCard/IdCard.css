@@ -1,0 +1,15 @@
+.id-card {
+    display: flex;
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 2rem
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.left-column {
+    margin-right: 2rem;
+}
