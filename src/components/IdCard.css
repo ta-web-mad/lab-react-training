@@ -1,0 +1,26 @@
+.profile_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 25px;
+}
+
+.profile-container {
+  display: flex;
+  width: 45%;
+  border: 2px solid black;
+}
+
+.picture-container {
+  padding: 15px;
+}
+
+.info-container {
+  text-align: start;
+}
+
+.info-container li {
+  list-style: none;
+  line-height: 14px;
+  align-items: flex-start;
+}

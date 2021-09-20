@@ -1,0 +1,11 @@
+.random_container {
+  border: 2px solid black;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  width: 45%;
+}
+
+.random_container p {
+  text-align: center;
+}

@@ -1,0 +1,11 @@
+.greetings_container {
+  border: 2px solid black;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 45%;
+}
+
+.greetings_container p {
+  text-align: center;
+}
