@@ -1,0 +1,9 @@
+.BoxColor div {
+    border: 1px solid #000;
+    margin-bottom: 1%;
+}
+
+.BoxColor p {
+    text-align: center;
+    line-height: 1;
+}
