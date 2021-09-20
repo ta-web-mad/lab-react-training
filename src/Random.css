@@ -1,0 +1,11 @@
+.boxRandom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    border: 1px solid yellow;
+    color: yellow;
+    background-color: blueviolet;
+    margin: 5px;
+    padding:5px;
+}

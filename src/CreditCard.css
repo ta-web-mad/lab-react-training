@@ -1,0 +1,27 @@
+.card {
+
+    height:187px;
+    width:340px;
+    border-radius: 5px;
+    background-color: turquoise;
+    margin:10px;
+    padding: 20px;
+}
+
+.card-logo {
+ width: 60px;
+ margin-left:280px;
+ object-fit: cover;
+}
+
+.number {
+margin-top: 50px;
+text-align: center;
+
+}
+
+.left {
+
+text-align: left;
+
+}
