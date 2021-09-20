@@ -1,0 +1,27 @@
+.credit-card > div {
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  display: inline-block;
+  line-height: 0.2;
+}
+
+.credit-card-number {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+
+.bank {
+  margin-left: 20px;
+}
+
+.credit-card img {
+  height: 20px;
+}
+
+.card-logo {
+  text-align: right;
+}
