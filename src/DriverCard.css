@@ -1,0 +1,30 @@
+.DriverCard {
+     display: flex;
+     flex-direction: column;
+}
+
+.DriverCard div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #425cbb;
+    border-radius: 10px;
+    padding: 15px;
+    justify-content: center;
+    color: #fff;
+}
+
+.DriverCard img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+.DriverCard h3 {
+    font-size: 1.7rem;
+}
+
+.driver-stars {
+    font-size: 2.7rem;
+}
