@@ -1,0 +1,30 @@
+
+
+.driverClass img {
+
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+
+.driverClass{
+
+    background-color: #425cbb;
+    border-radius: 10px;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.column{
+
+    display: flex;
+    flex-direction: column;
+}
