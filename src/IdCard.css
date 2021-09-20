@@ -1,0 +1,7 @@
+.student{
+    border: black solid 2px;
+    margin: 10px;
+}
+.student img{
+    height: 200px;
+}
