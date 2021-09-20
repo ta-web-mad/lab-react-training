@@ -1,0 +1,17 @@
+.toyota{
+    border: 2px solid black;
+    text-align: center;
+    background-color: #425cbb;
+    color: white;
+   
+}
+
+.imageOne{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 100px;
+    
+    justify-content: center;
+
+}
