@@ -1,0 +1,16 @@
+.driver-img{
+    width: 200px;
+    border-radius: 100%;
+
+}
+.driver-card{
+    background-color: rgb(23, 116, 255);
+    border-radius: 20px;
+    color: white;
+    margin: 50px;
+    justify-content: center;
+}
+
+.driver-name{
+    font-weight: 900;
+}
