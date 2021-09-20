@@ -1,0 +1,12 @@
+.id-card{
+    width: 48%;
+    padding: 10px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space;
+    align-items: stretch;
+}
+.id-card p{
+    padding: 2px;
+    margin: 2px;
+}
