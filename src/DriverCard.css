@@ -1,0 +1,20 @@
+.driver-card{
+    background-color: #425cbb;
+    width: auto;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    margin: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.driver-img{
+    border-radius: 100% ;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.name-driver{
+    font-size: 25px;
+    font-weight: bold;
+}
