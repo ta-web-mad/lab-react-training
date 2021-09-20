@@ -1,0 +1,29 @@
+.cards_container {
+  display: flex;
+  margin: 50px 0px;
+  justify-content: space-around;
+}
+
+.credit-card {
+  width: 325px;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 15px;
+  line-height: 5px;
+}
+
+.card-number {
+  font-size: 2rem;
+  margin: 40px 0px;
+}
+
+.img-row {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.credit-card img {
+  height: 25px;
+  align-items: flex-end;
+}
