@@ -1,0 +1,13 @@
+ .DriveCard{
+     text-align: center;
+ }
+ 
+ .driver-image{
+    width: 120px;  
+    border-radius: 30%; 
+  
+} 
+
+.DriveCard{
+    background-color: blue;
+}
