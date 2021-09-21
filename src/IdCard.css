@@ -1,0 +1,33 @@
+.id-card-men {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.id-card-women {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.horizontal {
+    display: flex;
+}
+
+.id-card {
+
+  width: 48%;
+  padding: 10px;
+  text-align: center;
+  
+}
+
+.id-card img {
+    display: flex;
+    flex-direction: column;
+    
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 2px solid black;
+}
