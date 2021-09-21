@@ -1,38 +1,73 @@
-.App {
+*{
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+.container-card{
+  display: flex;
+  width: 90%;
+  flex-direction: row;
+  border: 1px solid grey;
+}
+.card{
+  margin: 3rem;
+  padding: 2rem;
+  height: 100px;
+  width: 200px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.card img  {
+  position: relative;
+  right: 5px;
+  width: 40px;
+}
+.card p{
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.container-drive-car {
+  color: white;
+  display: flex;
+  justify-content: center;
+  background-color: blue;
   text-align: center;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container-drive-car div{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.container-drive-car img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
 }
+.container-like-button button {
+  padding: 10px;
+} 
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container-facebook{
+  border: 1px solid grey;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.container-facebook div{
+  display: flex;
+  flex-direction: row;
+}
+.container-facebook img {
+  height: 150px;
+  object-fit: cover;
 }
