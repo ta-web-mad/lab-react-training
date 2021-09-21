@@ -1,0 +1,8 @@
+.cards{
+    margin-top: 10px;
+    padding: 10px;
+border: 1px black solid;
+}
+.cards img {
+    width: 70%;
+}
