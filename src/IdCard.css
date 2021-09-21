@@ -1,0 +1,18 @@
+.id-card {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    display: flex;
+}
+
+.id-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    justify-items: left;
+}
+
+.information-card {
+    justify-items: left;
+}
