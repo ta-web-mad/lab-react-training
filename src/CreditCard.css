@@ -1,0 +1,15 @@
+
+
+.card{
+    border-radius: 10px;
+    height: 10em;
+    width: 30em;
+    margin: .5em;
+}
+
+.card img {
+    display: flex;
+    height: 10%;
+    width: 10%;
+}
+
