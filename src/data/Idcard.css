@@ -1,0 +1,15 @@
+.card{
+
+  display: flex;
+ justify-content: start;
+  border: 1px solid black;
+}
+
+.card-style{
+
+  display: flex;
+  text-align: left;
+  align-items: flex-start;
+  flex-direction: column;
+  font-weight: 800;
+}
