@@ -1,0 +1,19 @@
+.card-container {
+  width: 400px;
+  height: 220px;
+  margin: 100px;
+  border: 2px solid black;
+  border-radius: 4%;
+  padding: 20px;
+  font-size: 25px;
+  display: flexbox;
+  align-items: center;
+}
+
+.col-md-12 {
+  padding-left: 300px;
+}
+
+.col-md-11 {
+  padding-top: 70px;
+}

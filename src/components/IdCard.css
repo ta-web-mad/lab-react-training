@@ -1,0 +1,12 @@
+.IdCard-container {
+    width: 90%;
+    padding: 40px;
+    border: 2px solid black;
+    margin: auto;
+    flex-wrap: initial;
+  }
+  
+  .IdCard-container img {
+    width: 200px;
+    height: 200px;
+  }
