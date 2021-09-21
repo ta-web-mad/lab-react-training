@@ -1,0 +1,27 @@
+.flex-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 95%;
+    border: 2px solid black;
+    margin-top: 2em;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex-container img {
+    height: 14em;
+    margin-left: 2em;
+}
+
+.flex-item {
+    display: flex;
+    margin: 0 3em;
+    height: 30px;
+    margin-bottom: 1em;
+}
+
+.bold {
+    font-weight: bolder;
+    margin-right: 1em;    
+}
