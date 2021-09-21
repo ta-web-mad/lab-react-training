@@ -1,0 +1,14 @@
+.cards{
+    display: flex;  
+    height: 150px;
+     justify-content: space-around;
+} 
+ 
+.logo{
+    width: 30px;
+} 
+
+.credit-cards{
+    width: 320px; 
+    border-radius: 5px;
+}
