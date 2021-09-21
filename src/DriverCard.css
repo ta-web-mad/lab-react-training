@@ -1,0 +1,20 @@
+.driver-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.card-driver {
+    display: flex;
+    justify-content: center;
+    background-color: #425cbb;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.information-card-driver{
+    font-size: 15px;
+    color: white;
+}
