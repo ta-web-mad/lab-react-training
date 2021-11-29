@@ -1,0 +1,18 @@
+.card {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
+  border-width: 1px;
+}
+.cardData {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: start;
+  padding-left: 5px;
+}
+.cardData p {
+  margin-top: -16px;
+}
