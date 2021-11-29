@@ -7,6 +7,7 @@ import Random from './Random';
 import "./Greetings.css"
 import "./Random.css"
 import BoxColor from './BoxColor';
+import CreditCard from './CreditCard';
 
 
 function App() {
@@ -36,6 +37,9 @@ function App() {
       <BoxColor r={255} g={0} b={0}/>
       <BoxColor r={0} g={255} b={0} />
 
+      {/* ITERATION 5 */}
+
+      {/* <CreditCard type="Visa" number="**** **** **** 8845" expirationMonth="" /> */}
 
 
     </div>
