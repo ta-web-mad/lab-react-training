@@ -3,6 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 import IdCard from './IdCard';
 import Greetings from './Greetings';
+import Random from './Random';
+import "./Greetings.css"
+import "./Random.css"
 
 
 function App() {
@@ -23,6 +26,12 @@ function App() {
       </div>
 
       {/* ITERATION 3 */}
+      <div className="random">
+        <Random min={1} max={6}/>
+        <Random min={1} max={100} />
+      </div>
+
+
 
 
 
