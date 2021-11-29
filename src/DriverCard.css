@@ -1,0 +1,14 @@
+.imagen {
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+  padding-right: 20px;
+}
+
+.Drive {
+  background-color: rgb(66 92 187);
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+}
