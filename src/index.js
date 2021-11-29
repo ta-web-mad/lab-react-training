@@ -97,8 +97,9 @@ ReactDOM.render(
 				model: "Audi A3",
 				licensePlate: "BE33ER"
 			}} />
-
-		<LikeButton /> <LikeButton />
+		<div className="like-btn-container">
+			<LikeButton /> <LikeButton />
+		</div>
 
 
 
