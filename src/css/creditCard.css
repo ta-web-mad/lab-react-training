@@ -1,0 +1,26 @@
+section {
+    width: 91%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    margin:0 auto;
+    margin-top: 20px;;
+
+}
+.creditCard{
+    max-width: 300px;
+    width: 33%;
+    height: 175px;
+    display: flex;
+    flex-direction: column; 
+    border-radius: 10px;
+}
+.creditCard .digits {
+     width: fit-content;
+     margin: 10px 0px;
+     text-align: center;
+     font-size: 14px;
+} 
+ 
