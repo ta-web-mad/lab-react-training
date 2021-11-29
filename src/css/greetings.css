@@ -3,11 +3,26 @@
     padding: 0px;
 }
 .Greetings {
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 10px;
     align-items: center;
+    margin:0 auto;
+    margin-top: 20px;
+    
 }
 .greeting-cont {
+    width: 100%;
     display: block;
+    padding: 20px 5px;
+    border: 1px solid black;
+}
+.greeting-cont p {
+    width: 100%;
+    display: block;
+    font-size: 25px;
+    line-height: 35px;
+    margin-left: 20px;
 }

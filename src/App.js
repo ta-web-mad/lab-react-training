@@ -1,5 +1,6 @@
 import React from 'react';
 import IdCard from './components/IdCard.js';
+import Greetings from './components/Greetings.js';
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
 
     </div>
     <div className="Greetings">
-
+        <Greetings lang="de">Ludwig</Greetings>
+        <Greetings lang="fr">François</Greetings>
     </div>
     
   </>
