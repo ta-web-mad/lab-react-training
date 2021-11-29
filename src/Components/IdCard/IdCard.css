@@ -1,0 +1,39 @@
+.card {
+    width: 400px;
+    height: 220px;
+    box-shadow: rgba(39, 40, 41, 0.24) 0px 0px 50px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px;
+    padding: 0px 10px;
+}
+
+
+.card-img {
+    height: 200px;
+    border-radius: 30px 10px 10px 30px;
+}
+
+
+.card-info {
+    font-size: 14px;
+    color: #1b1b1a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 50px
+}
+
+
+.card-txt {
+    margin-bottom: 10px;
+}
+
+
+.distribution {
+    display: flex;
+    justify-content: space-between;
+
+}
