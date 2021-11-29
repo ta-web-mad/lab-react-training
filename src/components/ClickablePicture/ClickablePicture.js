@@ -6,11 +6,10 @@ class ClickablePicture extends React.Component {
     super(props);
     this.img = props.img;
     this.imgClicked = props.imgClicked;
+    this.state = {
+      clicked: false,
+    };
   }
-
-  state = {
-    clicked: false,
-  };
 
   clickHandler = () => {
     this.setState({

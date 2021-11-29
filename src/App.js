@@ -11,6 +11,9 @@ import DriverCard from './components/DriverCard/DriverCard';
 import LikeButton from './components/LikeButton/LikeButton';
 import ClickablePicture from './components/ClickablePicture/ClickablePicture';
 import Dice from './components/Dice/Dice';
+import Carousel from './components/Carousel/Carousel';
+import NumbersTable from './components/NumbersTable/NumbersTable';
+import FaceBook from './components/FaceBook/FaceBook';
 
 function App() {
   return (
@@ -169,6 +172,40 @@ function App() {
         </div>
         <div>
           <Dice />
+        </div>
+      </div>
+
+      <div className="iteration-container">
+        <div>
+          <Title title="Carousel" />
+        </div>
+        <div>
+          <Carousel
+            imgs={[
+              'https://randomuser.me/api/portraits/women/1.jpg',
+              'https://randomuser.me/api/portraits/men/1.jpg',
+              'https://randomuser.me/api/portraits/women/2.jpg',
+              'https://randomuser.me/api/portraits/men/2.jpg',
+            ]}
+          />
+        </div>
+      </div>
+
+      <div className="iteration-container">
+        <div>
+          <Title title="NumbersTable" />
+        </div>
+        <div>
+          <NumbersTable limit={12} />
+        </div>
+      </div>
+
+      <div className="iteration-container">
+        <div>
+          <Title title="FaceBook" />
+        </div>
+        <div>
+          <FaceBook />
         </div>
       </div>
     </div>

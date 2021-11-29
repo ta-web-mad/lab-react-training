@@ -6,11 +6,15 @@ const BoxColor = ({ r, g, b }) => {
     backgroundColor: `rgb(${r}, ${g}, ${b})`,
   };
 
+  const numToHex = (num) => num.toString(16).padStart(2, '0');
+  const rgbToHex = (r, g, b) => '#' + numToHex(r) + numToHex(g) + numToHex(b);
+
   return (
     <div style={rgbStyle} className="box-color">
       <p>
-        rgb({r},{g},{b})<br></br>
+        rgb({r},{g},{b})
       </p>
+      <p>{rgbToHex(r, g, b)}</p>
     </div>
   );
 };
