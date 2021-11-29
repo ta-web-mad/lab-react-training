@@ -4,6 +4,7 @@ import './App.css';
 import BoxColor from './components/BoxColor.component';
 import ClickablePicture from './components/ClickablePicture.component';
 import CreditCard from './components/CreditCard.component';
+import Dice from './components/Dice.component';
 import DriverCard from './components/DriverCard.component';
 import Greetings from './components/Greetings.component';
 import Idcard from './components/Idcard.component';
@@ -110,6 +111,9 @@ function App() {
           img="/img/persons/maxence.png"
           imgClicked="/img/persons/maxence-glasses.png"
         />
+        <h2>Dice</h2>
+
+        <Dice></Dice>
       </div>
     </>
   );

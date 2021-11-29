@@ -80,3 +80,7 @@ body{
     width: 120px;
     border-radius: 50%;
 }
+.dice-div img{
+    height: 200px;
+    width: auto;
+}
