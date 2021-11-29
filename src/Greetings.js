@@ -1,20 +1,18 @@
 import React from "react";
-// import "./Greetings.css"
+import "./Greetings.css"
 
 
 const Greetings = (props) => {
-
-    return 
-        // <div>
-        //     {props.lang} === 'de'? 
-        //     <p>{props.children}</p>
-
-
-
-        // </div>
     
-
-
+    if (props.lang === "de"){
+        return <p>Hallo {props.children}</p>
+    } else if (props.lang === "fr") {
+        return <p>Bonjour {props.children}</p>
+    } else if (props.lang === "es") {
+        return <p>Hola {props.children}</p>
+    } else if (props.lang === "en") {
+        return <p>Hello {props.children}</p>
+    }
 
 }
 
