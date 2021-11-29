@@ -1,0 +1,26 @@
+.card {
+    width: 320px;
+    margin-top: 6px;
+    margin-left: 6px;
+    border: 1px solid black;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+.card p {
+    margin: auto;
+    font-weight: bold;
+}
+
+.card p span{
+    font-weight: normal;
+}
+
+.img {
+
+    width: 150px;
+}

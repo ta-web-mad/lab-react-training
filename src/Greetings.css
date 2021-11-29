@@ -1,0 +1,6 @@
+.languages p {
+  border: 1px solid black;
+  width: 150px;
+  margin-left: 6px;
+  margin-top: 6px;
+}
