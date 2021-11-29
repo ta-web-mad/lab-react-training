@@ -1,0 +1,31 @@
+.driverCard {
+    text-align: left;
+    background-color: #425cbb;
+    border-radius: 10px;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+.driverCard > img {
+    margin: 10px;
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.driverBody > h2 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.driverBody > p {
+    margin: 0;
+
+}
+

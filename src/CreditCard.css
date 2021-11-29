@@ -1,0 +1,24 @@
+.creditCard {
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 20px;
+    padding: 20px;
+    width: 300px;
+  }
+
+.cardType {
+    text-align: right;
+    margin: 0;
+}
+
+.cardNumber {
+    font-size: 29px;
+}
+
+.cardInfo {
+    text-align: left;
+}
+
+.cardInfo > p {
+    margin: 0;
+}
