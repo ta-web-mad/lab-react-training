@@ -19,7 +19,7 @@ function Idcard(props) {
           {props.height}
           <br></br>
           <strong>Birth:</strong>
-          {props.birth}
+          {props.birth.toDateString()}
           <br></br>
         </div>
       </div>

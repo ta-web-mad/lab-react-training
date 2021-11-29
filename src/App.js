@@ -2,12 +2,15 @@ import React from 'react';
 
 import './App.css';
 import BoxColor from './components/BoxColor.component';
+import ClickablePicture from './components/ClickablePicture.component';
 import CreditCard from './components/CreditCard.component';
 import DriverCard from './components/DriverCard.component';
 import Greetings from './components/Greetings.component';
 import Idcard from './components/Idcard.component';
+import LikeButton from './components/LikeButton.component';
 import Random from './components/Random.component';
 import Rating from './components/Rating.component';
+
 
 
 
@@ -23,7 +26,7 @@ function App() {
           firstName="John"
           gender="male"
           height={178}
-          //birth={new Date('1992-07-14')}
+          birth={new Date('1992-07-14')}
           href="https://randomuser.me/api/portraits/men/44.jpg"
         />
         <Idcard
@@ -31,21 +34,18 @@ function App() {
           firstName="Obrien"
           gender="female"
           height={172}
-          // birth={new Date('1988-05-11')}
+          birth={new Date('1988-05-11')}
           href="https://randomuser.me/api/portraits/women/44.jpg"
         />
-
         <h2>Greetings</h2>
         <Greetings lang="de" children="Ludwig" />
         <Greetings lang="fr" children="Francois" />
-
         <h2>Random</h2>
         <Random min={1} max={6} />
         <Random min={1} max={100} />
         <h2>BoxColor</h2>
         <BoxColor r={255} g={0} b={0} />
         <BoxColor r={128} g={255} b={0} />
-
         <h2>CreditCard</h2>
         <CreditCard
           type="Visa"
@@ -102,6 +102,13 @@ function App() {
             model: 'Audi A3',
             licensePlate: 'BE33ER',
           }}
+        />
+        <h2>Like button</h2>
+        <LikeButton />
+        <h2>Clickable Picture</h2>
+        <ClickablePicture
+          img="/img/persons/maxence.png"
+          imgClicked="/img/persons/maxence-glasses.png"
         />
       </div>
     </>
