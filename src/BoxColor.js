@@ -1,8 +1,8 @@
 import React from 'react'
 import './BoxColor.css'
 
-function rgbToHex(r, g, b) {
-    return "#" + (r) + (g) + (b);
+function rgbConverter(r,g,b) {
+    return "#"+r+g+b;
 }
 
 const BoxColor = (props) => {
@@ -12,7 +12,7 @@ const BoxColor = (props) => {
             backgroundColor: `rgb(${props.r},${props.g},${props.b})`, color: props.color
         }}>
             <p>rgb({props.r},{props.g},{props.b})</p>
-            <p>{rgbToHex(props.r, props.g, props.b)}</p>
+            <p>{rgbConverter(props.r, props.g, props.b)}</p>
         </div>
     )
 }

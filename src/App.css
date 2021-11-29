@@ -2,6 +2,12 @@
   text-align: center;
 }
 
+.App h1 {
+  text-align: left;
+  padding-left: 20px;
+  margin-top: 50px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -26,6 +32,11 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.Credit {
+  display: flex;
+  flex-direction: row;
 }
 
 @keyframes App-logo-spin {
