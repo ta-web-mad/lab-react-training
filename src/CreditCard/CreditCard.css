@@ -1,0 +1,23 @@
+.creditCard {
+  width: 25%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  margin-left: 100px;
+}
+.creditCard img {
+  margin-left: 80%;
+  margin-top: 20px;
+  width: 50px;
+}
+.creditNumber {
+  font-size: 30px;
+}
+.dateBank {
+  display: flex;
+  margin-left: -20px;
+}
+.dateBank p {
+  padding-left: 20px;
+}

@@ -1,0 +1,9 @@
+.likeButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+.likeButton button {
+  width: 90px;
+  height: 30px;
+}
