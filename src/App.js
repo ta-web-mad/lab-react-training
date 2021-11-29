@@ -6,6 +6,7 @@ import Greetings from './Greetings';
 import Random from './Random';
 import "./Greetings.css"
 import "./Random.css"
+import BoxColor from './BoxColor';
 
 
 function App() {
@@ -31,8 +32,9 @@ function App() {
         <Random min={1} max={100} />
       </div>
 
-
-
+      {/* ITERATION 4 */}
+      <BoxColor r={255} g={0} b={0}/>
+      <BoxColor r={0} g={255} b={0} />
 
 
 
