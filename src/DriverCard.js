@@ -1,5 +1,6 @@
 import React from 'react'
 import './DriverCard.css'
+import Rating from './Rating';
 
 
 const DriverCard = (props) => {
@@ -9,7 +10,7 @@ const DriverCard = (props) => {
         <img className="driverPic" src={props.img} alt={props.name} />
       <div>
         <p>{props.name}</p>
-        <p>{props.rating}</p>
+        <Rating>{props.rating}</Rating>
         <p>{props.car.model} - {props.car.licensePlate}</p>
 
       </div>
