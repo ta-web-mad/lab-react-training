@@ -1,0 +1,32 @@
+.box {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 10px 0;
+}
+
+.IdCard {
+  display: flex;
+}
+
+.IdCard img {
+  margin-right: 5px;
+}
+
+.Credit-Card img {
+  width: 100px;
+  height: auto;
+}
+
+.Driver-Card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+
+.Driver-Card img {
+  width: 200px;
+  height: auto;
+}
