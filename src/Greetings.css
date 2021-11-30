@@ -1,0 +1,11 @@
+
+
+.greetings {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 200px;
+    color: white;
+}
