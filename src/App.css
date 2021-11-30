@@ -7,14 +7,9 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
-  background-color: #282c34;
+ 
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,3 +31,39 @@
     transform: rotate(360deg);
   }
 }
+
+p {
+    margin: 5px;
+  }
+  .infos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .CreditCard {
+    max-width: 15rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;  
+    margin: 2rem;
+    padding: 1rem;
+  }
+  
+  .type {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .expiration {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .owner {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+
+  

@@ -1,0 +1,8 @@
+.card {
+    display: flex;
+    border: black 4px solid;
+    padding: 1rem;
+    margin: 2rem;
+    font-size: 2em;
+  }
+  
