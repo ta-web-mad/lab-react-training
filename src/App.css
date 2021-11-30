@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
+.cardPerson {
+  border: 1px solid black;
+  display: flex;
+  margin: 10px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cardPerson div {
+  margin-left: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cardPerson img {
+  height: 80%;
+  margin: auto 5px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.cardGreetings {
+  border: 1px solid black;
+  margin: 10px;
+}
+.cardGreetings p {
+  margin: 5px;
+}
+.BoxColor {
+  height: 150px;
+  border: 1px solid black;
+  margin: 10px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.CreditCard {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 30%;
+  height: 200px;
+  display: inline-block;
+  margin: 0 1.5%;
+}
+.CreditCard span {
+  margin-left: 40px;
+}
+.CreditCard img {
+  height: 25px;
+  margin: 20px 0 0 350px;
+}
+.CreditNumber {
+  text-align: center;
+  font-size: 24px;
+  letter-spacing: 10px;
+}
+.CreditInfo {
+  margin-left: 20px;
+}
+.CardDriver {
+  padding: 15px 0;
+  margin: 20px 100px;
+  border-radius: 10px;
+  background-color: rgb(63, 25, 202);
+  text-align: center;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.CardDriver div {
+  display: flex;
+  display: inline-block;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.RatingDriver {
+  font-size: 30px;
+}
+.DriverImg {
+  height: 100px;
+  width: 100px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+.TitleDriver {
+  font-size: 26px;
+  font-weight: 800;
+}
+.likeButton {
+  padding: 15px 10px;
+}
+.Picture {
+  height: 200px;
+}
+.DiceFrame {
+  height: 100px;
+  margin-top: 300px;
 }
