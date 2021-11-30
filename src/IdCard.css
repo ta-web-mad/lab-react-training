@@ -1,0 +1,20 @@
+.card{
+  width: 97%;
+  height: 150px;
+  margin: 6px auto;
+  padding: 20px;
+  border: 1px solid black;  
+  text-align: right;
+}
+
+.photo{
+    display: flex;
+    justify-content: left;
+}
+
+.text{
+    display: flex;
+    justify-content: right;
+    
+}
+
