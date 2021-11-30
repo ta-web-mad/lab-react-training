@@ -1,0 +1,22 @@
+
+
+.CreditCard {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+}
+
+.CreditCard img {
+    width: 80px;
+}
+
+.accountNumber {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.expiration {
+    display: flex;
+}
