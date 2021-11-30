@@ -1,0 +1,6 @@
+.Greetings {
+    display: flex;
+    flex-direction: row;
+    border: 1px black solid;
+
+}
