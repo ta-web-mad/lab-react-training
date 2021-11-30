@@ -1,0 +1,12 @@
+.cards {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 5px;
+  border: 1px black solid;
+}
+.cards img {
+  width: 150px;
+  height: 150px;
+  padding-top: 10px;
+  padding-right: 10px;
+}
