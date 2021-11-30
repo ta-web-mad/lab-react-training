@@ -8,16 +8,14 @@ const IdCard = (props) => {
 
     <article className="card">
 
-    <div className="picture">
-      <img src={props.picture}/>
-    </div>
+      <img src={props.picture} alt="profile"/>
 
     <div className="personal-info">
-      <p>{"LastName: "} {props.lastName}</p>
-      <p>{"FirstName: "} {props.firstName}</p>
-      <p> Gender: {props.gender}</p>
-      <p> Height: {props.height}</p>
-      <p> Birth: {props.birth.toString().slice(0, 15)}</p>
+      <p><strong> LastName: </strong>  {props.lastName}</p>
+      <p><strong> FirstName: </strong>   {props.firstName}</p>
+      <p><strong> Gender: </strong> {props.gender}</p>
+      <p><strong> Height: </strong> {props.height}</p>
+      <p><strong> Birth: </strong> {props.birth.toString().slice(0, 15)}</p>
     </div>
       
     </article>

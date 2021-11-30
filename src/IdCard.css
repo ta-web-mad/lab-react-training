@@ -4,11 +4,17 @@
     display: flex;
     margin-bottom: 10px;
     padding: 10px;
-    
-    
+      
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
 }
 
 .personal-info p {
-    font-size: 12px;
+    font-size: 15px;
 }
+
+
 
