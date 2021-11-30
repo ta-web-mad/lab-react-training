@@ -1,0 +1,33 @@
+.credit-card {
+  border-radius: 10px;
+  padding: 2rem;
+  width: 20%;
+  margin: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  height: 10rem;
+}
+
+.first-row {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bank-logo {
+  max-height: 1.5rem;
+}
+
+.bank-name {
+  margin-left: 1rem;
+}
+
+.card-number {
+  width: 100%;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.client-info {
+  font-size: 1rem;
+}
