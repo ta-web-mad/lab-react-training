@@ -1,0 +1,14 @@
+.etiqueta{
+    display: flex;
+    flex-direction: row;
+    border: black solid 1px;
+    margin: 5px;
+  }
+  
+  .divEtiqueta{
+    margin: 20px;
+  }
+  
+  span{
+    font-weight: bold;
+  }
